@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable="true" antiResourceLocking="true">
+
+  <Resource
+    name="jdbc/recall_data"
+    type="javax.sql.DataSource"
+    auth="Container"
+    username="root"
+    password="18519"
+    driverClassName="com.mysql.jdbc.Driver"
+    url="jdbc:mysql://localhost:3306/recall_data?autoReconnect=true">
+  </Resource>
+
+</Context>
